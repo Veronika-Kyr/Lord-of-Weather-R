@@ -86,7 +86,7 @@ export default function Weather() {
                 <p className="codeRef">
                     {" "}
                     <a
-                        href="https://github.com/Veronika-Kyr/Lord-of-Weather"
+                        href="https://github.com/Veronika-Kyr/Lord-of-Weather-R"
                         target="_blank" rel="noopener"
                     >
                         Open-source code
