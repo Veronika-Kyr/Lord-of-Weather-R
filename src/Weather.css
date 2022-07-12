@@ -181,3 +181,40 @@
     font-size: 12px;
     text-align: left;
 }
+
+.CitySearch .city-search {
+    border: 2px solid rgb(15, 59, 120);
+    border-radius: 20px;
+    padding: 20px 25px;
+    width: 500px;
+    margin: 40px 20px 0 20px;
+}
+
+.CitySearch .btn-search {
+    border: 2px solid rgb(15, 59, 120);
+    border-radius: 20px;
+    padding: 13px 10px;
+    width: 100px;
+    color: white;
+    background: rgb(15, 59, 120);
+    margin-top: 40px;
+}
+
+.CitySearch .btn-search:hover {
+    background: rgb(33, 111, 221);
+}
+
+.CitySearch .showCurrent {
+    border: 2px solid rgb(249, 100, 7);
+    border-radius: 20px;
+    padding: 13px 10px;
+    width: 100px;
+    color: white;
+    background: rgb(249, 100, 7);
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.CitySearch .showCurrent:hover {
+    background: rgb(157, 63, 5);
+}
