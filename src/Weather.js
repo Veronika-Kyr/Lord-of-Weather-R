@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import CurrentWeather from "./CurrentWeather";
 
 export default function Weather(props) {
     let [city, setCity] = useState(props.city);
-    let date = "May 27";
+    // let date = "May 27";
     let [currentWeather, setCurrentWeather] = useState({});
     function getCity(event) {
         setCity(event.target.value);
@@ -19,6 +20,7 @@ export default function Weather(props) {
             temperature: Math.round(response.data.main.temp),
             windSpeed: Math.round(response.data.wind.speed),
             humidity: response.data.main.humidity,
+            date: new Date(response.data.dt * 1000),
             description: response.data.weather[0].description,
             icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
             maxTemperature: Math.round(response.data.main.temp_max),
@@ -29,7 +31,8 @@ export default function Weather(props) {
         <div className="Weather">
             <div className="block">
                 <div class="block1">
-                    <h4>🌈Lord of Weather</h4>
+                    <CurrentWeather data={currentWeather} />
+                    {/* <h4>🌈Lord of Weather</h4>
 
                     <p className="head">{city}</p>
 
@@ -38,7 +41,7 @@ export default function Weather(props) {
                             <div className="col currentBlock">
                                 <div className="row">
                                     <div className="col-2 col-sm bigdate">
-                                        <p>{date}</p>
+                                        <CurrentDate date={currentWeather.date} />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -88,7 +91,7 @@ export default function Weather(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="CitySearch">
                         <form onSubmit={callCurrentWeather}>
