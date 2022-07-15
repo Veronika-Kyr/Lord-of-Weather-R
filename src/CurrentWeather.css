@@ -1,0 +1,121 @@
+.currentWeather h4 {
+    font-family: "Fredoka One", cursive;
+    margin: 9px 0 0 10px;
+    color: rgb(18, 77, 161) !important;
+}
+
+.currentWeather .head {
+    font-size: 80px;
+    color: rgb(249, 100, 7);
+    font-weight: 600;
+    text-align: center;
+    text-indent: 400px;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+}
+
+.currentWeather .currentBlock {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.currentWeather .daytemp {
+    font-size: 110px;
+    line-height: 0.9;
+    font-weight: 600;
+    color: rgb(249, 100, 7);
+    text-align: center;
+}
+
+.currentWeather .measureC {
+    text-decoration: none;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(15, 59, 120);
+}
+
+.currentWeather .celciusmin {
+    font-size: 40px;
+}
+
+.currentWeather .celciusmin:hover {
+    color: rgb(15, 59, 120);
+    cursor: default;
+}
+
+.currentWeather.measureC:hover {
+    color: rgb(15, 59, 120);
+    cursor: default;
+}
+
+.currentWeather .skyIcon {
+    width: 155px;
+    opacity: 0;
+    animation: appear 2s ease-in infinite alternate-reverse;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.currentWeather .detailed {
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 1;
+}
+
+.currentWeather .nighttemp {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(15, 59, 120);
+    text-align: right;
+}
+
+.currentWeather .slash {
+    font-size: 40px;
+}
+
+.currentWeather .maxTemp {
+    padding-left: 20px;
+    color: rgb(249, 100, 7);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.currentWeather .bigdate {
+    text-align: right;
+    font-size: 32px;
+    color: rgb(15, 59, 120);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.currentWeather .bigwind,
+.bigdrop {
+    font-size: 25px;
+    color: rgb(15, 59, 120);
+}
+
+.currentWeather .hum {
+    text-align: right;
+    text-indent: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.currentWeather.weatherDescription {
+    font-size: 17px;
+    display: inline-block;
+}
+
+
+.currentWeather .weatherDescription:first-letter {
+    text-transform: capitalize;
+}

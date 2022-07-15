@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import CurrentDate from "./CurrentDate";
+import "./CurrentWeather.css";
 
 
 export default function CurrentWeather(props) {
@@ -9,7 +10,7 @@ export default function CurrentWeather(props) {
         <div className="currentWeather">
             <h4>🌈Lord of Weather</h4>
 
-            <p className="head">{city}</p>
+            <p className="head">{props.data.city}</p>
 
             <div className="container">
                 <div className="row">
