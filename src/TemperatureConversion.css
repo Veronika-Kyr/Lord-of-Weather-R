@@ -1,0 +1,25 @@
+.conversion {
+    width: 300px !important;
+    display: inline-block;
+}
+
+.conversion .daytemp {
+    font-size: 110px;
+    line-height: 0.9;
+    font-weight: 600;
+    color: rgb(249, 100, 7);
+    text-align: center;
+}
+
+.conversion .measureC {
+    /* text-decoration: none; */
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(15, 59, 120);
+}
+
+.conversion .measureF {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(111, 113, 116);
+}

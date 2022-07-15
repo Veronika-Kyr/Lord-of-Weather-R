@@ -19,29 +19,6 @@
     margin-right: 10px;
 }
 
-.currentWeather .daytemp {
-    font-size: 110px;
-    line-height: 0.9;
-    font-weight: 600;
-    color: rgb(249, 100, 7);
-    text-align: center;
-}
-
-.currentWeather .measureC {
-    text-decoration: none;
-    font-size: 70px;
-    font-weight: 600;
-    color: rgb(15, 59, 120);
-}
-
-.currentWeather .celciusmin {
-    font-size: 40px;
-}
-
-.currentWeather .celciusmin:hover {
-    color: rgb(15, 59, 120);
-    cursor: default;
-}
 
 .currentWeather.measureC:hover {
     color: rgb(15, 59, 120);
@@ -49,9 +26,11 @@
 }
 
 .currentWeather .skyIcon {
+    margin-top: -55px;
     width: 155px;
+    height: 155px;
     opacity: 0;
-    animation: appear 2s ease-in infinite alternate-reverse;
+    animation: appear 2.5s ease-in infinite alternate-reverse;
 }
 
 @keyframes appear {
@@ -70,24 +49,6 @@
     line-height: 1;
 }
 
-.currentWeather .nighttemp {
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(15, 59, 120);
-    text-align: right;
-}
-
-.currentWeather .slash {
-    font-size: 40px;
-}
-
-.currentWeather .maxTemp {
-    padding-left: 20px;
-    color: rgb(249, 100, 7);
-    font-size: 50px;
-    font-weight: 600;
-    text-align: right;
-}
 
 .currentWeather .bigdate {
     text-align: right;

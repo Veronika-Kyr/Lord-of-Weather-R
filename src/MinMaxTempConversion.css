@@ -1,0 +1,29 @@
+.minmaxTemp .slash {
+    font-size: 40px;
+}
+
+.minmaxTemp .maxTemp {
+    padding-left: 20px;
+    color: rgb(249, 100, 7);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.minmaxTemp .nighttemp {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(15, 59, 120);
+    text-align: right;
+}
+
+.minmaxTemp .celciusmin {
+    font-size: 40px;
+    color: rgb(15, 59, 120);
+
+}
+
+.minmaxTemp .fahrenmin {
+    font-size: 20px;
+    color: rgb(157, 159, 162);
+}
