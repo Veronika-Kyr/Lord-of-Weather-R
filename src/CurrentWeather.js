@@ -7,7 +7,6 @@ import MinMaxTempConversion from "./MinMaxTempConversion";
 
 export default function CurrentWeather(props) {
 
-
     return (
         <div className="currentWeather">
             <h4>🌈Lord of Weather</h4>
