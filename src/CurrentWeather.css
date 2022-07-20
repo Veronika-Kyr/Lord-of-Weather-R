@@ -89,3 +89,37 @@
     margin-right: 20px;
     margin-left: 15px;
 }
+
+
+@media (max-width: 600px) {
+
+    .currentWeather .head {
+        font-size: 55px;
+        /* color: rgb(249, 100, 7);
+    font-weight: 600;
+    text-align: center; */
+        text-indent: 10px;
+        margin-bottom: 10px;
+        line-height: 1;
+        /* margin: 0 0 20px 0;
+    line-height: 1.2; */
+    }
+
+    .currentWeather .bigdate {
+        text-align: center;
+        font-size: 26px;
+
+    }
+
+    .currentWeather .skyIcon {
+        /* margin-top: -55px; */
+        width: 135px;
+        height: 135px;
+    }
+
+    .currentWeather .smalfore {
+        margin-top: 20px;
+    }
+
+
+}

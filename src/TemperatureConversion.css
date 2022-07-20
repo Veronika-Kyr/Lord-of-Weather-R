@@ -23,3 +23,14 @@
     font-weight: 600;
     color: rgb(111, 113, 116);
 }
+
+@media (max-width: 600px) {
+
+    .conversion .daytemp {
+        font-size: 80px;
+        /* line-height: 0.9; */
+    }
+
+
+
+}

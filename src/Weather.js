@@ -64,7 +64,12 @@ export default function Weather(props) {
                         >
                             Open-source code
                         </a>{" "}
-                        by Veronika Kyrylovska
+                        made by  <a
+                            href="https://veronika-kyrylovska.netlify.app/"
+                            target="_blank" rel="noreferrer"
+                        >
+                            Veronika Kyrylovska
+                        </a>
                     </p>
                 </div>
             </div>
