@@ -1,0 +1,43 @@
+.Forecast .smalfore {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.Forecast .forecastForm {
+    text-align: center;
+}
+
+.Forecast .fore-date {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Forecast .smdaytemp {
+    color: rgb(249, 100, 7);
+}
+
+.Forecast .smnighttemp {
+    color: rgb(15, 59, 120);
+}
+
+.Forecast .fore-temp {
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Forecast .fore-status {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(15, 59, 120);
+}
+
+.Forecast .iconFore {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}

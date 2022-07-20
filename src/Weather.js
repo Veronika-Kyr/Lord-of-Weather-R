@@ -30,10 +30,11 @@ export default function Weather(props) {
             humidity: response.data.main.humidity,
             date: new Date(response.data.dt * 1000),
             description: response.data.weather[0].description,
-            icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+            icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
             maxTemperature: Math.round(response.data.main.temp_max),
             minTemperature: Math.round(response.data.main.temp_min),
             city: response.data.name,
+            coordinates: response.data.coord,
         })
     }
     if (currentWeather.ready) {

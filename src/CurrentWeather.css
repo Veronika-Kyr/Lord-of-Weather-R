@@ -84,3 +84,8 @@
 .currentWeather .weatherDescription:first-letter {
     text-transform: capitalize;
 }
+
+.currentWeather .smalfore {
+    margin-right: 20px;
+    margin-left: 15px;
+}

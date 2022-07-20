@@ -20,49 +20,6 @@
 }
 
 
-.Weather .smalfore {
-    margin-right: 20px;
-    margin-left: 15px;
-}
-
-.Weather .forecastForm {
-    text-align: center;
-}
-
-.Weather .fore-date {
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.Weather .smdaytemp {
-    color: rgb(249, 100, 7);
-}
-
-.Weather .smnighttemp {
-    color: rgb(15, 59, 120);
-}
-
-.Weather .fore-temp {
-    font-size: 35px;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.Weather .fore-status {
-    font-size: 40px;
-    font-weight: 600;
-    color: rgb(15, 59, 120);
-}
-
-.Weather .iconFore {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
 
 .Weather .gitRef {
     margin: 0 auto;
