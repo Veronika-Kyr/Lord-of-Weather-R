@@ -25,7 +25,12 @@
 
 
 @media (max-width: 600px) {
-    /* .minmaxTemp {
-        width: 80px;
-    } */
+    .minmaxTemp .nighttemp {
+        font-size: 40px;
+    }
+
+    .minmaxTemp .maxTemp {
+        font-size: 40px;
+    }
+
 }

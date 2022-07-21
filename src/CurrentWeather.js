@@ -17,7 +17,7 @@ export default function CurrentWeather(props) {
             <div className="container">
                 <div className="row">
                     <div className="col currentBlock">
-                        <div className="row dateB">
+                        <div className="row">
                             <div className="col-2 col-sm bigdate">
                                 <CurrentDate date={props.data.date} />
                             </div>

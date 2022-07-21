@@ -95,14 +95,9 @@
 
     .currentWeather .head {
         font-size: 50px;
-        /* color: rgb(249, 100, 7);
-    font-weight: 600;
-    text-align: center; */
         text-indent: 10px;
         margin-bottom: 10px;
         line-height: 1;
-        /* margin: 0 0 20px 0;
-    line-height: 1.2; */
     }
 
     .currentWeather .bigdate {
@@ -112,7 +107,6 @@
     }
 
     .currentWeather .skyIcon {
-        /* margin-top: -55px; */
         width: 120px;
         height: 120px;
     }
@@ -122,16 +116,11 @@
     }
 
     .currentWeather .minmax {
-        width: 57% !important;
+        width: 60% !important;
     }
 
     .currentWeather .hum {
         width: 40% !important;
     }
-
-    /* 
-    .currentWeather .dateB {
-        text-align: center;
-    } */
 
 }
