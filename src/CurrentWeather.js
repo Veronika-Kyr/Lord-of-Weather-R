@@ -17,7 +17,7 @@ export default function CurrentWeather(props) {
             <div className="container">
                 <div className="row">
                     <div className="col currentBlock">
-                        <div className="row">
+                        <div className="row dateB">
                             <div className="col-2 col-sm bigdate">
                                 <CurrentDate date={props.data.date} />
                             </div>
@@ -34,11 +34,11 @@ export default function CurrentWeather(props) {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-8 col-md-auto">
+                            <div className="col-8 col-md-6 minmax">
                                 <MinMaxTempConversion maxTempC={props.data.maxTemperature} minTempC={props.data.minTemperature} />
 
                             </div>
-                            <div className="col-2 col-sm hum">
+                            <div className="col-2 col-md-6 hum">
                                 <div className="detailed">
                                     <i className="fa-solid fa-droplet bigdrop"></i>
                                     <span> {props.data.humidity}</span> %

@@ -31,6 +31,8 @@
         /* line-height: 0.9; */
     }
 
-
+    .conversion {
+        width: 150px !important;
+    }
 
 }

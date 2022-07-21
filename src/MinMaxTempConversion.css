@@ -23,7 +23,9 @@
 
 }
 
-.minmaxTemp .fahrenmin {
-    font-size: 20px;
-    color: rgb(157, 159, 162);
+
+@media (max-width: 600px) {
+    /* .minmaxTemp {
+        width: 80px;
+    } */
 }
